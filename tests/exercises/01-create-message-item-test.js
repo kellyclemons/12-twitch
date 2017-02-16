@@ -1,4 +1,5 @@
 /* eslint-env qunit */
+// test
 
 // This is just used to allow multi-line strings
 function fixWhitespace(str) {

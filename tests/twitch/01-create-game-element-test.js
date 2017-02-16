@@ -1,4 +1,5 @@
 /* eslint-env qunit */
+// test
 
 QUnit.module('Twitch Game Page');
 import showGamesInList from '../../app/twitch/add-games-to-list';
