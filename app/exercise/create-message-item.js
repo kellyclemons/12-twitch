@@ -1,8 +1,6 @@
 export default function(item) {
   const element = document.createElement('li');
-
-  element.innerText = `${item.username} Do your homework`;
-
+  element.innerHTML = `<span class="message-item__username"> ${item.username}</span> ${item.message}`;
   return element;
 }
 
