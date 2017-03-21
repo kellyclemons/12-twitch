@@ -48,7 +48,7 @@ function testUiForItem(el, item, assert, msgPrefix) {
     `${msgPrefix}: The game item should be an Element object
       (see document.createElement)`);
   assert.ok(el.classList.contains('game-item'),
-    `${msgPrefix}: The game item element element should have a class 'game-item'`);
+    `${msgPrefix}: The game item element should have a class 'game-item'`);
 
   // Check the game name
   const name = el.querySelector('h3.game-item__name');
