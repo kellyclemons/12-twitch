@@ -1,0 +1,36 @@
+.games-container {
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 1rem;
+  }
+
+
+.games-game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: -1rem;
+  }
+
+.game-item {
+  flex-basis: calc(100% / 5);
+  flex-direction: column;
+  margin: 1rem;
+
+  &__pic {
+    width: 10rem;
+  }
+
+  &__name {
+    margin: 0;
+    margin-bottom: 0.2rem;
+    font-size: 0.8rem;
+    }
+
+  &__popularity {
+    margin: 0;
+    color: $c-app-buttons;
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+}
