@@ -1,11 +1,145 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <title>10-twitch</title>
+  <title>12-twitch</title>
+  <script src="https://use.fontawesome.com/3344585b4c.js"></script>
   <link rel="stylesheet" href="/app.css">
 </head>
-<body>
+
+<body class="main">
+  <div class="app">
+
+      <div class="sidebar">
+        <img class="twitch-logo" src="http://twitchadvertising.tv/wp-content/uploads/2014/03/logo_white_twitch_effects.png" alt="">
+
+        <!-- SIDEBAR LINKS -->
+
+        <div class="sidebar-search">
+          <span class="sidebar-search__icon"><i class="fa fa-search" aria-hidden="true"></i></span>
+        <span><input class="sidebar-search__input" type="text" placeholder="Search"></span>
+        </div>
+        <ul class="sidebar-nav">
+          <li><span class="fa fa-gamepad" aria-hidden="true"></span><span class="left-sidebar__nav-games">Games</span></li>
+          <li><span class="fa fa-users" aria-hidden="true"></span><span class="left-sidebar__nav-communities">Communities</span></li>
+          <li><span class="fa fa-video-camera" aria-hidden="true"></span><span class="left-sidebar__nav-channels">Channels</span></li>
+          <li><span class="fa fa-youtube-play" aria-hidden="true"></span><span class="left-sidebar__nav-videos">Videos</span></li>
+          <li><span class="fa fa-star" aria-hidden="true"></span><span class="left-sidebar__nav-creative">Creative</span></li>
+        </ul>
+
+        <!-- SIDEBAR - FREE WITH PRIME -->
+
+        <div class="prime">
+          <h4 class="prime-heading">Free with Prime<span class="fa fa-caret-down"></span></h4>
+          <ul class="prime-list">
+            <li class="prime-list__item">
+              <div class="prime-list__item-info">
+                <img class="prime-photo" src="http://placecera.com/400/400" alt="">
+              </div>
+              <div class="prime-list__item-info">
+                <p class="list__item-title">Ghost Recon Wildlands War</p>
+                <p class="list__item-subtitle">Tom Clancy's Ghost Recon</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- SIDEBAR - RECOMMENDED -->
+
+        <div class="recommended">
+          <h4 class="recommended-heading">Recommended Channels</h4>
+          <div class="channels">
+
+            <div class="channels__item">
+              <div class="channels__item-info">
+                <img src="http://placecera.com/400/400" alt="" class="channels__item-image">
+              </div>
+              <div class="channels__item-info">
+                <p class="channels__item-title">Twitch</p>
+                <p class="channels__item-subtitle">streaming Talk Shows</p>
+              </div>
+            </div>
+
+            <div class="channels__item">
+              <div class="channels__item-info">
+                <img src="http://placecera.com/400/400" alt="" class="channels__item-image">
+              </div>
+              <div class="channels__item-info">
+                <p class="channels__item-title">BanzaiBaby</p>
+                <p class="channels__item-subtitle">streaming Creative</p>
+              </div>
+            </div>
+
+            <div class="channels__item">
+              <div class="channels__item-info">
+                <img src="http://placecera.com/400/400" alt="" class="channels__item-image">
+              </div>
+              <div class="channels__item-info">
+                <p class="channels__item-title">Totalbiscuit</p>
+                <p class="channels__item-subtitle">streaming Talk Shows</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SIDEBAR - MORE -->
+
+        <div class="more">
+          <h4 class="more-heading">More at Twitch</h4>
+
+          <div class="more-grid">
+            <div class="more-column">
+              <div class="more-grid__item">About</div>
+              <div class="more-grid__item">Blog</div>
+              <div class="more-grid__item">Cookie Policy</div>
+              <div class="more-grid__item">Help</div>
+              <div class="more-grid__item">Language</div>
+              <div class="more-grid__item">Partners</div>
+              <div class="more-grid__item">Store</div>
+            </div>
+            <div class="more-column">
+              <div class="more-grid__item">Advertisers</div>
+              <div class="more-grid__item">Creative</div>
+              <div class="more-grid__item">Developers</div>
+              <div class="more-grid__item">Jobs</div>
+              <div class="more-grid__item">Music</div>
+              <div class="more-grid__item">Press</div>
+              <div class="more-grid__item">Terms</div>
+            </div>
+          </div>
+        </div>
+
+      <!-- SIDEBAR - ACCOUNT -->
+
+      <div class="sidebar-account">
+        <button class="sidebar-account__button">Log In</button>
+        <button class="sidebar-account__button">Sign Up</button>
+      </div>
+
+    </div>
+
+
+          <div class="main">
+            <div class="games-container">
+              <img src="https://s1.2mdn.net/5525475/970x66_PRE.jpg" alt="">
+              <h1 class="games-heading">Browse</h1>
+              <p class="games-subheading">Games</p>
+              <div class="grid">
+                <div class="game-item">
+                  <div class="game-item__pic">
+                    <img src="http://placecera.com/400/400" alt="" class="game__img">
+                  </div>
+                  <div class="game-item__name">Game Title</div>
+                  <p class="game-item__popularity">### viewers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+</div>
   <script src="/app.js" charset="utf-8"></script>
 </body>
+
 </html>
