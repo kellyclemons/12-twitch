@@ -4,27 +4,34 @@
   padding: 1rem;
   }
 
+.games-subheading {
+  border-bottom: 1px solid $c-app-borders;
+}
 
-.games-game {
+.grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  // justify-content: space-between;
   margin: -1rem;
   }
 
 .game-item {
-  flex-basis: calc(100% / 5);
+  display: flex;
+  flex-basis: calc(100% / 5 - 2rem);
   flex-direction: column;
+  flex-grow: 1;
   margin: 1rem;
 
   &__pic {
     width: 10rem;
+    // height: 15rem;
   }
 
   &__name {
     margin: 0;
     margin-bottom: 0.2rem;
     font-size: 0.8rem;
+    text-transform: uppercase;
     }
 
   &__popularity {

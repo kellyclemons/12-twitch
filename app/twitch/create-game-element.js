@@ -3,9 +3,9 @@ export default function createGameItem(game) {
   el.classList.add('game-item');
 
   el.innerHTML = `
+    <img class="game-item__pic">
     <h3 class="game-item__name"></h3>
-    <h4 class="game-item__popularity"></h4>
-    <img class="game-item__pic">`;
+    <h4 class="game-item__popularity"></h4>`;
 
   el.querySelector('.game-item__name').innerText = `${game.name}`;
   el.querySelector('.game-item__popularity').innerText = `${game.popularity} Viewers`;

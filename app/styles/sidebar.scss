@@ -1,14 +1,15 @@
 // *** SIDEBAR ***
 
 .sidebar {
-  color: $c-app-offgrey;
   display: flex;
   flex-direction: column;
   width: 25%;
-  height: 100vh;
+  min-width: 15rem;
+  // height: 100vh;
   padding: 1rem;
-  background: $c-app-twitchpurple;
   padding-bottom: 2rem;
+  background: $c-app-twitchpurple;
+  color: $c-app-offgrey;
 
   // overflow-x: auto;
   overflow-y: scroll;
@@ -23,15 +24,15 @@
   width: 100%;
   padding: 0;
 
-  border: thin #49048f solid;
+  border: thin $c-app-borders solid;
   background: $c-app-searchbar;
   vertical-align: middle;
 
 }
 
 .sidebar-search__input {
-  background: $c-app-searchbar;
   border: 0;
+  background: $c-app-searchbar;
 }
 
 .twitch-logo {
@@ -50,11 +51,11 @@
 }
 
 .prime-heading {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
   border-bottom: 0.1rem solid $c-app-offgrey;
   font-size: 0.8rem;
   text-transform: uppercase;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
 }
 
 .fa-caret-down {
@@ -77,14 +78,14 @@
 
 .list__item-title {
   margin: 0;
-  font-size: 0.8rem;
   padding-bottom: 0.2rem;
+  font-size: 0.8rem;
 }
 
 .list__item-subtitle {
   margin: 0;
-  font-size: 0.6rem;
   color: $c-greylink;
+  font-size: 0.6rem;
 }
 
 // RECOMMENDED STYLING
@@ -94,11 +95,11 @@
 }
 
 .recommended-heading {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
   border-bottom: 0.1rem solid $c-app-offgrey;
   font-size: 0.8rem;
   text-transform: uppercase;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
 }
 
 .channels {
@@ -117,24 +118,24 @@
 
 .channels__item-title {
   margin: 0;
-  font-size: 0.8rem;
   padding-bottom: 0.2rem;
+  font-size: 0.8rem;
 }
 
 .channels__item-subtitle {
   margin: 0;
-  font-size: 0.6rem;
   color: $c-greylink;
+  font-size: 0.6rem;
 }
 
 // MORE STYLING
 
 .more-heading {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
   border-bottom: 0.1rem solid $c-app-offgrey;
   font-size: 0.8rem;
   text-transform: uppercase;
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
 }
 
 .more-grid {
@@ -165,9 +166,10 @@
   bottom: 0;
   left: 0;
   justify-content: center;
-  width: 20vw;
+  width: 25%;
+  // min-width: 10rem;
   margin: 0;
-  margin-left: 1rem;
+  // margin-left: 1rem;
   padding: 0;
 
 
